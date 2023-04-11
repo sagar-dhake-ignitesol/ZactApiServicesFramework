@@ -11,14 +11,14 @@ public struct ApiServices {
         print("hello world")
     }
   
-//    public func getExpenses(state : String, size: Int, callback: @escaping ExpenseListResponseCallback) {
-//        if(FrameworkManager.checkIsAuthorized(accessToken: self.accessToken)) {
-//            ExpenseApiServices().getExpensesForState(state: state, bearerToken: self.bearerToken) { expenses, error in
-//               callback(expenses, error)
-//            }
-//        }
-//        else {
-//            callback(nil, "Access token error")
-//        }
-//    }
+    public func getExpenses(state : String, size: Int, callback: @escaping ExpenseListResponseCallback) {
+        if(FrameworkManager.checkIsAuthorized(accessToken: self.accessToken)) {
+            ExpenseApiServices().getExpensesForState(state: state, bearerToken: self.bearerToken) { expenses, error in
+               callback(expenses, error)
+            }
+        }
+        else {
+            callback(nil, "Access token error")
+        }
+    }
 }

@@ -1,0 +1,29 @@
+{
+  "name": "ZactApiServicesFramework",
+  "version": "0.0.1",
+  "summary": "A CocoaPods library written in Swift",
+  "description": "A CocoaPods library written in Swift for calling api.",
+  "homepage": "https://github.com/Daltron/NotificationBanner",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sagar": "sagar.dhake@ignitesol.com"
+  },
+  "source": {
+    "git": "https://github.com/sagar-dhake-ignitesol/ZactApiServicesFramework.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "ZactApiServicesFramework/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+
+    ]
+  },
+  "swift_version": "5.0"
+}

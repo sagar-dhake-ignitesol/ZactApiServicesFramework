@@ -1,0 +1,23 @@
+PODS:
+  - Alamofire (5.6.4)
+  - ZactApiServicesFramework (0.0.1):
+    - Alamofire
+
+DEPENDENCIES:
+  - ZactApiServicesFramework (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+
+EXTERNAL SOURCES:
+  ZactApiServicesFramework:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Alamofire: 4e95d97098eacb88856099c4fc79b526a299e48c
+  ZactApiServicesFramework: 86f016f1455f7a14302adeda5da8f17691e45cb4
+
+PODFILE CHECKSUM: 313573baf35d33ccd25b2784fc82cf4ca0f86cb0
+
+COCOAPODS: 1.12.0

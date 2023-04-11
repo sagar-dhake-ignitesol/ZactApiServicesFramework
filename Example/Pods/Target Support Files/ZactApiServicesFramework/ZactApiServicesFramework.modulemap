@@ -1,0 +1,6 @@
+framework module ZactApiServicesFramework {
+  umbrella header "ZactApiServicesFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

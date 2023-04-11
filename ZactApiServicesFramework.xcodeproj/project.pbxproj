@@ -10,6 +10,39 @@
 		5693795C29E59A91004F8CA2 /* ZactApiServicesFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = 5693795B29E59A91004F8CA2 /* ZactApiServicesFramework.docc */; };
 		5693795D29E59A91004F8CA2 /* ZactApiServicesFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 5693795A29E59A91004F8CA2 /* ZactApiServicesFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5693798629E59BF6004F8CA2 /* ApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693798529E59BF6004F8CA2 /* ApiServices.swift */; };
+		569379AB29E59E91004F8CA2 /* ZactApiServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693798829E59E8F004F8CA2 /* ZactApiServiceManager.swift */; };
+		569379AC29E59E91004F8CA2 /* ExpenseApiServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693798929E59E8F004F8CA2 /* ExpenseApiServices.swift */; };
+		569379AD29E59E91004F8CA2 /* FrameworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693798A29E59E8F004F8CA2 /* FrameworkManager.swift */; };
+		569379AE29E59E91004F8CA2 /* ZactExpenseReceipts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693798D29E59E90004F8CA2 /* ZactExpenseReceipts.swift */; };
+		569379AF29E59E91004F8CA2 /* ZactOwner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693798E29E59E90004F8CA2 /* ZactOwner.swift */; };
+		569379B029E59E91004F8CA2 /* ZactAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693798F29E59E90004F8CA2 /* ZactAddress.swift */; };
+		569379B129E59E91004F8CA2 /* ZactRefundedExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799029E59E90004F8CA2 /* ZactRefundedExpense.swift */; };
+		569379B229E59E91004F8CA2 /* ZactApprovalItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799129E59E90004F8CA2 /* ZactApprovalItem.swift */; };
+		569379B329E59E91004F8CA2 /* ZactRefund.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799229E59E90004F8CA2 /* ZactRefund.swift */; };
+		569379B429E59E91004F8CA2 /* ZactAllocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799329E59E90004F8CA2 /* ZactAllocation.swift */; };
+		569379B529E59E91004F8CA2 /* ZactExpensesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799429E59E90004F8CA2 /* ZactExpensesResponse.swift */; };
+		569379B629E59E91004F8CA2 /* ZactManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799529E59E90004F8CA2 /* ZactManager.swift */; };
+		569379B729E59E91004F8CA2 /* ZactApprover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799629E59E90004F8CA2 /* ZactApprover.swift */; };
+		569379B829E59E91004F8CA2 /* ZactAmountAndTax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799729E59E90004F8CA2 /* ZactAmountAndTax.swift */; };
+		569379B929E59E91004F8CA2 /* ZactClaimAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799829E59E90004F8CA2 /* ZactClaimAmount.swift */; };
+		569379BA29E59E91004F8CA2 /* ZactReceipt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799929E59E90004F8CA2 /* ZactReceipt.swift */; };
+		569379BB29E59E91004F8CA2 /* ZactBaseAmount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799A29E59E90004F8CA2 /* ZactBaseAmount.swift */; };
+		569379BC29E59E91004F8CA2 /* ZactMerchantRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799B29E59E90004F8CA2 /* ZactMerchantRating.swift */; };
+		569379BD29E59E91004F8CA2 /* ZactExpenseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799C29E59E90004F8CA2 /* ZactExpenseType.swift */; };
+		569379BE29E59E91004F8CA2 /* ZactExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799D29E59E90004F8CA2 /* ZactExpenseItem.swift */; };
+		569379BF29E59E91004F8CA2 /* ZactExpenseInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799E29E59E90004F8CA2 /* ZactExpenseInfo.swift */; };
+		569379C029E59E91004F8CA2 /* ZactOrganization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5693799F29E59E90004F8CA2 /* ZactOrganization.swift */; };
+		569379C129E59E91004F8CA2 /* ZactMiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A029E59E90004F8CA2 /* ZactMiles.swift */; };
+		569379C229E59E91004F8CA2 /* ZactProjectEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A129E59E90004F8CA2 /* ZactProjectEntity.swift */; };
+		569379C329E59E91004F8CA2 /* ZactDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A229E59E90004F8CA2 /* ZactDistribution.swift */; };
+		569379C429E59E91004F8CA2 /* ZactRequiredAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A329E59E90004F8CA2 /* ZactRequiredAttributes.swift */; };
+		569379C529E59E91004F8CA2 /* ZactRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A429E59E90004F8CA2 /* ZactRequired.swift */; };
+		569379C629E59E91004F8CA2 /* ZactExpenseTypeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A529E59E90004F8CA2 /* ZactExpenseTypeCategory.swift */; };
+		569379C729E59E91004F8CA2 /* ZactRefundDistribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A629E59E90004F8CA2 /* ZactRefundDistribution.swift */; };
+		569379C829E59E91004F8CA2 /* ZactUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A729E59E90004F8CA2 /* ZactUserInfo.swift */; };
+		569379C929E59E91004F8CA2 /* ZactCostCenterEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A829E59E90004F8CA2 /* ZactCostCenterEntity.swift */; };
+		569379CA29E59E91004F8CA2 /* ZactDistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379A929E59E90004F8CA2 /* ZactDistance.swift */; };
+		569379CB29E59E91004F8CA2 /* ShareExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 569379AA29E59E91004F8CA2 /* ShareExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,6 +50,39 @@
 		5693795A29E59A91004F8CA2 /* ZactApiServicesFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZactApiServicesFramework.h; sourceTree = "<group>"; };
 		5693795B29E59A91004F8CA2 /* ZactApiServicesFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = ZactApiServicesFramework.docc; sourceTree = "<group>"; };
 		5693798529E59BF6004F8CA2 /* ApiServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiServices.swift; sourceTree = "<group>"; };
+		5693798829E59E8F004F8CA2 /* ZactApiServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactApiServiceManager.swift; sourceTree = "<group>"; };
+		5693798929E59E8F004F8CA2 /* ExpenseApiServices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseApiServices.swift; sourceTree = "<group>"; };
+		5693798A29E59E8F004F8CA2 /* FrameworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameworkManager.swift; sourceTree = "<group>"; };
+		5693798D29E59E90004F8CA2 /* ZactExpenseReceipts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactExpenseReceipts.swift; sourceTree = "<group>"; };
+		5693798E29E59E90004F8CA2 /* ZactOwner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactOwner.swift; sourceTree = "<group>"; };
+		5693798F29E59E90004F8CA2 /* ZactAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactAddress.swift; sourceTree = "<group>"; };
+		5693799029E59E90004F8CA2 /* ZactRefundedExpense.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactRefundedExpense.swift; sourceTree = "<group>"; };
+		5693799129E59E90004F8CA2 /* ZactApprovalItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactApprovalItem.swift; sourceTree = "<group>"; };
+		5693799229E59E90004F8CA2 /* ZactRefund.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactRefund.swift; sourceTree = "<group>"; };
+		5693799329E59E90004F8CA2 /* ZactAllocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactAllocation.swift; sourceTree = "<group>"; };
+		5693799429E59E90004F8CA2 /* ZactExpensesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactExpensesResponse.swift; sourceTree = "<group>"; };
+		5693799529E59E90004F8CA2 /* ZactManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactManager.swift; sourceTree = "<group>"; };
+		5693799629E59E90004F8CA2 /* ZactApprover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactApprover.swift; sourceTree = "<group>"; };
+		5693799729E59E90004F8CA2 /* ZactAmountAndTax.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactAmountAndTax.swift; sourceTree = "<group>"; };
+		5693799829E59E90004F8CA2 /* ZactClaimAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactClaimAmount.swift; sourceTree = "<group>"; };
+		5693799929E59E90004F8CA2 /* ZactReceipt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactReceipt.swift; sourceTree = "<group>"; };
+		5693799A29E59E90004F8CA2 /* ZactBaseAmount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactBaseAmount.swift; sourceTree = "<group>"; };
+		5693799B29E59E90004F8CA2 /* ZactMerchantRating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactMerchantRating.swift; sourceTree = "<group>"; };
+		5693799C29E59E90004F8CA2 /* ZactExpenseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactExpenseType.swift; sourceTree = "<group>"; };
+		5693799D29E59E90004F8CA2 /* ZactExpenseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactExpenseItem.swift; sourceTree = "<group>"; };
+		5693799E29E59E90004F8CA2 /* ZactExpenseInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactExpenseInfo.swift; sourceTree = "<group>"; };
+		5693799F29E59E90004F8CA2 /* ZactOrganization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactOrganization.swift; sourceTree = "<group>"; };
+		569379A029E59E90004F8CA2 /* ZactMiles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactMiles.swift; sourceTree = "<group>"; };
+		569379A129E59E90004F8CA2 /* ZactProjectEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactProjectEntity.swift; sourceTree = "<group>"; };
+		569379A229E59E90004F8CA2 /* ZactDistribution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactDistribution.swift; sourceTree = "<group>"; };
+		569379A329E59E90004F8CA2 /* ZactRequiredAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactRequiredAttributes.swift; sourceTree = "<group>"; };
+		569379A429E59E90004F8CA2 /* ZactRequired.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactRequired.swift; sourceTree = "<group>"; };
+		569379A529E59E90004F8CA2 /* ZactExpenseTypeCategory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactExpenseTypeCategory.swift; sourceTree = "<group>"; };
+		569379A629E59E90004F8CA2 /* ZactRefundDistribution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactRefundDistribution.swift; sourceTree = "<group>"; };
+		569379A729E59E90004F8CA2 /* ZactUserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactUserInfo.swift; sourceTree = "<group>"; };
+		569379A829E59E90004F8CA2 /* ZactCostCenterEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactCostCenterEntity.swift; sourceTree = "<group>"; };
+		569379A929E59E90004F8CA2 /* ZactDistance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZactDistance.swift; sourceTree = "<group>"; };
+		569379AA29E59E91004F8CA2 /* ShareExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShareExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +126,10 @@
 			isa = PBXGroup;
 			children = (
 				5693798529E59BF6004F8CA2 /* ApiServices.swift */,
+				5693798A29E59E8F004F8CA2 /* FrameworkManager.swift */,
+				5693798B29E59E90004F8CA2 /* Model */,
+				5693798729E59E8F004F8CA2 /* Services */,
+				569379AA29E59E91004F8CA2 /* ShareExtensions.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -70,6 +140,59 @@
 				5693795A29E59A91004F8CA2 /* ZactApiServicesFramework.h */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		5693798729E59E8F004F8CA2 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5693798829E59E8F004F8CA2 /* ZactApiServiceManager.swift */,
+				5693798929E59E8F004F8CA2 /* ExpenseApiServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5693798B29E59E90004F8CA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5693798C29E59E90004F8CA2 /* Expense */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5693798C29E59E90004F8CA2 /* Expense */ = {
+			isa = PBXGroup;
+			children = (
+				5693798D29E59E90004F8CA2 /* ZactExpenseReceipts.swift */,
+				5693798E29E59E90004F8CA2 /* ZactOwner.swift */,
+				5693798F29E59E90004F8CA2 /* ZactAddress.swift */,
+				5693799029E59E90004F8CA2 /* ZactRefundedExpense.swift */,
+				5693799129E59E90004F8CA2 /* ZactApprovalItem.swift */,
+				5693799229E59E90004F8CA2 /* ZactRefund.swift */,
+				5693799329E59E90004F8CA2 /* ZactAllocation.swift */,
+				5693799429E59E90004F8CA2 /* ZactExpensesResponse.swift */,
+				5693799529E59E90004F8CA2 /* ZactManager.swift */,
+				5693799629E59E90004F8CA2 /* ZactApprover.swift */,
+				5693799729E59E90004F8CA2 /* ZactAmountAndTax.swift */,
+				5693799829E59E90004F8CA2 /* ZactClaimAmount.swift */,
+				5693799929E59E90004F8CA2 /* ZactReceipt.swift */,
+				5693799A29E59E90004F8CA2 /* ZactBaseAmount.swift */,
+				5693799B29E59E90004F8CA2 /* ZactMerchantRating.swift */,
+				5693799C29E59E90004F8CA2 /* ZactExpenseType.swift */,
+				5693799D29E59E90004F8CA2 /* ZactExpenseItem.swift */,
+				5693799E29E59E90004F8CA2 /* ZactExpenseInfo.swift */,
+				5693799F29E59E90004F8CA2 /* ZactOrganization.swift */,
+				569379A029E59E90004F8CA2 /* ZactMiles.swift */,
+				569379A129E59E90004F8CA2 /* ZactProjectEntity.swift */,
+				569379A229E59E90004F8CA2 /* ZactDistribution.swift */,
+				569379A329E59E90004F8CA2 /* ZactRequiredAttributes.swift */,
+				569379A429E59E90004F8CA2 /* ZactRequired.swift */,
+				569379A529E59E90004F8CA2 /* ZactExpenseTypeCategory.swift */,
+				569379A629E59E90004F8CA2 /* ZactRefundDistribution.swift */,
+				569379A729E59E90004F8CA2 /* ZactUserInfo.swift */,
+				569379A829E59E90004F8CA2 /* ZactCostCenterEntity.swift */,
+				569379A929E59E90004F8CA2 /* ZactDistance.swift */,
+			);
+			path = Expense;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +274,41 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				569379C029E59E91004F8CA2 /* ZactOrganization.swift in Sources */,
+				569379B529E59E91004F8CA2 /* ZactExpensesResponse.swift in Sources */,
 				5693798629E59BF6004F8CA2 /* ApiServices.swift in Sources */,
+				569379B329E59E91004F8CA2 /* ZactRefund.swift in Sources */,
+				569379B629E59E91004F8CA2 /* ZactManager.swift in Sources */,
+				569379B229E59E91004F8CA2 /* ZactApprovalItem.swift in Sources */,
+				569379CA29E59E91004F8CA2 /* ZactDistance.swift in Sources */,
+				569379C229E59E91004F8CA2 /* ZactProjectEntity.swift in Sources */,
+				569379AE29E59E91004F8CA2 /* ZactExpenseReceipts.swift in Sources */,
+				569379AC29E59E91004F8CA2 /* ExpenseApiServices.swift in Sources */,
+				569379B829E59E91004F8CA2 /* ZactAmountAndTax.swift in Sources */,
+				569379C829E59E91004F8CA2 /* ZactUserInfo.swift in Sources */,
+				569379B129E59E91004F8CA2 /* ZactRefundedExpense.swift in Sources */,
+				569379AF29E59E91004F8CA2 /* ZactOwner.swift in Sources */,
+				569379B929E59E91004F8CA2 /* ZactClaimAmount.swift in Sources */,
+				569379BE29E59E91004F8CA2 /* ZactExpenseItem.swift in Sources */,
+				569379B429E59E91004F8CA2 /* ZactAllocation.swift in Sources */,
+				569379BD29E59E91004F8CA2 /* ZactExpenseType.swift in Sources */,
+				569379CB29E59E91004F8CA2 /* ShareExtensions.swift in Sources */,
+				569379B729E59E91004F8CA2 /* ZactApprover.swift in Sources */,
+				569379C529E59E91004F8CA2 /* ZactRequired.swift in Sources */,
+				569379B029E59E91004F8CA2 /* ZactAddress.swift in Sources */,
+				569379C129E59E91004F8CA2 /* ZactMiles.swift in Sources */,
+				569379BA29E59E91004F8CA2 /* ZactReceipt.swift in Sources */,
+				569379BB29E59E91004F8CA2 /* ZactBaseAmount.swift in Sources */,
+				569379BC29E59E91004F8CA2 /* ZactMerchantRating.swift in Sources */,
+				569379C929E59E91004F8CA2 /* ZactCostCenterEntity.swift in Sources */,
+				569379C329E59E91004F8CA2 /* ZactDistribution.swift in Sources */,
+				569379BF29E59E91004F8CA2 /* ZactExpenseInfo.swift in Sources */,
 				5693795C29E59A91004F8CA2 /* ZactApiServicesFramework.docc in Sources */,
+				569379C729E59E91004F8CA2 /* ZactRefundDistribution.swift in Sources */,
+				569379C429E59E91004F8CA2 /* ZactRequiredAttributes.swift in Sources */,
+				569379AB29E59E91004F8CA2 /* ZactApiServiceManager.swift in Sources */,
+				569379C629E59E91004F8CA2 /* ZactExpenseTypeCategory.swift in Sources */,
+				569379AD29E59E91004F8CA2 /* FrameworkManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
