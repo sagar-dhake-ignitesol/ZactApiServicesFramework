@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
 A CocoaPods library written in Swift for calling api.
                        DESC
 
-    s.homepage         = 'https://github.com/Daltron/NotificationBanner'
+    s.homepage         = 'https://github.com/sagar-dhake-ignitesol/ZactApiServicesFramework'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { "Sagar" => "sagar.dhake@ignitesol.com" }
     s.source           = { :git => 'https://github.com/sagar-dhake-ignitesol/ZactApiServicesFramework.git', :tag => s.version.to_s }
