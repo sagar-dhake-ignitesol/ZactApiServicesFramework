@@ -18,6 +18,7 @@ internal class ExpenseApiServices {
     
     /**
         Get expense list according to state passed
+     
         - parameter state: Get expenses of passsed state
         - parameter size: Size od expenses returned
         - parameter size: Callback has expense list and error message params

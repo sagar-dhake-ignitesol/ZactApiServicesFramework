@@ -8,6 +8,7 @@ public struct ApiServices {
 
     /**
         Initilization of the framework using accessToken and bearerToken
+     
         - parameter accessToken: If worng access token, framework will not be accessible.
         - parameter bearerToken: The token which is used for caling api's
     */
@@ -18,6 +19,7 @@ public struct ApiServices {
     
     /**
         Get expense list according to state passed
+     
         - parameter state: Get expenses of passsed state
         - parameter size: Size od expenses returned
         - parameter size: Callback has expense list and error message params

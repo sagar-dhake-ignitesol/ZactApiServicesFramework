@@ -14,7 +14,10 @@ class FrameworkManager {
     
     /**
           It is used to checked whether passed access token is correct.
-        - parameter accessToken: If worng access token, framework will not be accessible.
+     
+        - parameter accessToken: If wrong access token, framework will not be accessible.
+     
+        - Returns: Boolean is passed token is correct.
     */
     static func checkIsAuthorized(accessToken: String) -> Bool {
         return accessToken == self.accessToken
