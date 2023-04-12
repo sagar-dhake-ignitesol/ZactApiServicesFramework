@@ -24,6 +24,6 @@ A CocoaPods library written in Swift for calling api.
     s.swift_version = '5.0'
     s.source_files = 'ZactApiServicesFramework/Classes/**/*'
 
-    s.dependency 'Alamofire'
+    s.dependency 'Alamofire', '~> 5.6'
 
 end
