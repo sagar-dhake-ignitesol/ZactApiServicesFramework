@@ -25,7 +25,6 @@ class ZactApiServiceManager {
     private static func createAlamofireRequest(method: HTTPMethod = .get, endpoint: String, bearerToken: String, encoding: ParameterEncoding = JSONEncoding.default, parameters: Parameters? = nil, shouldAuthorize: Bool = true, shouldAddNewHeader: Bool = false, requestData: Any? = nil) -> DataRequest{
         let url = getAPIHost() + endpoint
      
-        print(url)
         if let requestPostData = requestData {
             var urlRequest = URLRequest(url: URL(string: url)!)
                     
