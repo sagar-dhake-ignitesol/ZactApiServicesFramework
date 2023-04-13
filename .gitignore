@@ -1,14 +1,6 @@
 # Created by https://www.toptal.com/developers/gitignore/api/swift,xcode,carthage,cocoapods
 # Edit at https://www.toptal.com/developers/gitignore?templates=swift,xcode,carthage,cocoapods
 
-### Carthage ###
-# Carthage
-#
-# Add this line if you want to avoid checking in source code from Carthage dependencies.
-# Carthage/Checkouts
-
-Carthage/Build
-
 ### CocoaPods ###
 ## CocoaPods GitIgnore Template
 
