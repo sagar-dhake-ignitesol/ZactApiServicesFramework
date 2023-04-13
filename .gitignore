@@ -17,6 +17,10 @@ Carthage/Build
 #           - AS PER https://guides.cocoapods.org/using/using-cocoapods.html NEVER IGNORE THE LOCK FILE
 Pods/
 
+Example/Pods
+Example/Example.xcworkspace
+Example/Podfile.lock
+
 ### Swift ###
 # Xcode
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
